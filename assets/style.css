@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #1a0947;
+}
+
+.container-button {
+    text-align: center;
+    background-color: #01ec86;
+    width: 100px;
+    height: 30px;
+    margin: 200px auto;
+    border-radius: 20px;
+    line-height: 28px;
+    font-size: 30px;
+}
+
+.container-button a {
+    color: #fff;
+}
+
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    margin: 30px auto;
+    background-color: aqua;
+    border: 2px solid #000;
+    height: 800px;
+    border-radius: 25px;
+    padding: 120px;
+    gap: 40px;
+}
+
+
+h1 {
+    font-size: 30px;
+}
+
+.answer {
+    background: #dddddd;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 12px;
+    border: none;
+}
+
+.answerSelect {
+    background: crimson;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 12px;
+    border: none;
+}
+
+
+.answer:hover {
+    background: crimson;
+    color: #fff;
+    cursor: pointer;
+}
+
+.prove {
+    width: 200px;
+    height: 80px;
+    background: #01ec86;
+    color: #000;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.prove:hover {
+    background: #97ffd2;
+    cursor: pointer;
+}
+
+.correct {
+    width: 130px;
+    height: 60px;
+    background-color: #01ec86;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border: 3px solid #fff;
+}
+
+.incorrect {
+    width: 130px;
+    height: 60px;
+    background-color: #d8717f;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border: 3px solid #fff;
+}
+
+.next {
+    width: 100px;
+    height: 40px;
+    background: #200081;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.next:hover {
+    background: #8d67ff;
+}
+
+.finish {
+    width: 400px;
+    height: 80px;
+    background: #01ec86;
+    color: #000;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.home {
+    width: 100px;
+    height: 40px;
+    background-color: #1a0947;
+    color: #fff;
+    padding: 12px;
+    border: 2px solid #fff;
+}
+
+.reload {
+    width: 100px;
+    height: 40px;
+    background-color: #1a0947;
+    color: #fff;
+    padding: 12px;
+    border: 2px solid #fff;
+}
