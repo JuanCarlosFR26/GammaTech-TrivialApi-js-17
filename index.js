@@ -98,11 +98,12 @@ function question() {
       answerButton.addEventListener('click', () => {
         let userAnswer = answerButton.innerText;
         answerButton.classList.remove('answer');
-        answerButton.classList.add('answerSelect')
+        answerButton.classList.add('answerSelect');
 
         console.log(userAnswer);
 
         prove.addEventListener('click', () => {
+          answersList.style.visibility = 'hidden';
           if(userAnswer === questions[count].correctAnswer) {
             const correct = document.createElement('div');
             correct.classList.add('correct')
